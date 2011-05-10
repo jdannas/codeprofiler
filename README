@@ -1,0 +1,17 @@
+/*
+Version: 0.78
+Release Date: 5/10/2011
+
+Created by Jonathan Annas 3/11/09 and released under GPL v2.
+
+Description:
+The code profiler is meant to be used to time functions or operations
+at runtime with the best possible precision. It uses high precision
+timers for both Windows and Linux to provide time profiles for any
+statement.
+
+Notes:
+The output times should be considered relative to each other. The
+absolute values of the runtimes may be affected by the OS command
+process timer which may add some constant time to your profile.
+*/
